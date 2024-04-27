@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #141619;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#heading {
+    font-size: 70px;
+    color: #B3B4BD;
+}
+
+.gitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 70px;
+    background-color: #B3B4BD;
+    color: #141619;
+    border-radius: 20px;
+}
+
+.gitButton:hover {
+    opacity: 0.7;
+    scale: 1.1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sketch {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
